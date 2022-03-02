@@ -1,0 +1,21 @@
+import React from 'react';
+import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
+import ResourceContent from '../body-content/ResourcesContent';
+
+function ResourcePage() {
+  return (
+    
+    <>
+      <Header/>
+      <div className='container-fluid'>
+        <div className='row'>
+          <Sidebar/>
+          <ResourceContent/>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default ResourcePage;
