@@ -1,4 +1,6 @@
 import React from "react";
+import Modules from '../components/Modules';
+import {Module_display} from '../styles/module.style';
 
 function HomeContent (){
     return(
@@ -17,6 +19,28 @@ function HomeContent (){
                     </button>
                     </div>
                 </div>
+
+
+
+                <Module_display>
+                     <div>
+                        <Modules img="./images/Cature.PNG" name="MODULE 1" heading="Panorama de la SSI"/>
+                     </div>
+                     <div>
+                        <Modules img="./images/Cature.PNG" name="MODULE 2" heading="Sécurité de l’authentification"/>
+                     </div>
+                     <div>
+                        <Modules img="./images/Cature.PNG" name="MODULE 3" heading="Sécurité sur Internet"/>
+                     </div>
+                     <div>
+                        <Modules img="./images/Cature.PNG" name="MODULE 4" heading="Sécurité du poste de travail et nomadisme"/>
+                     </div>
+                    
+                </Module_display>
+
+
+
+
 
             </main>
         </>
