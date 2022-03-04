@@ -5,7 +5,7 @@ import '../styles/layout.css'
 function Sidebar (){
     return(
         <>
-            <nav id="sidebarMenu" className="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse position-fixed" style={{minHeight:'100vh'}}>
+            <nav id="sidebarMenu" className="col-md-3 col-lg-2 d-md-block sidebar collapse position-fixed" style={{minHeight:'100vh', background:'#1a478f'}}>
             <div className="position-sticky pt-3 pl-4">
                 <ul className="nav flex-column pt-5 mx-auto pl-4">
                     <li className="nav-item pt-3" style={{fontSize: '1.2rem'}}>

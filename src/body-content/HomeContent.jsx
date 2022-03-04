@@ -1,6 +1,6 @@
 import React from "react";
 import Modules from '../components/Modules';
-import {Module_display} from '../styles/module.style';
+import "../App.css";
 
 function HomeContent (){
     return(
@@ -22,21 +22,16 @@ function HomeContent (){
 
 
 
-                <Module_display>
-                     <div>
-                        <Modules img="./images/Cature.PNG" name="MODULE 1" heading="Panorama de la SSI"/>
-                     </div>
-                     <div>
-                        <Modules img="./images/Cature.PNG" name="MODULE 2" heading="Sécurité de l’authentification"/>
-                     </div>
-                     <div>
-                        <Modules img="./images/Cature.PNG" name="MODULE 3" heading="Sécurité sur Internet"/>
-                     </div>
-                     <div>
-                        <Modules img="./images/Cature.PNG" name="MODULE 4" heading="Sécurité du poste de travail et nomadisme"/>
-                     </div>
-                    
-                </Module_display>
+                <div className="wrapper">
+               
+                        <Modules image="./images/Module1.png" module_name="MODULE 1" title="Panorama de la SSI"/>
+                
+                        <Modules image="./images/Module2.png" module_name="MODULE 2" title="Sécurité de l’authentification"/>
+                 
+                        <Modules image="./images/Module3.png" module_name="MODULE 3" title="Sécurité sur Internet"/>
+                  
+                        <Modules image="./images/Module4.png" module_name="MODULE 4" title="Sécurité du poste de travail et nomadisme"/>
+                </div>
 
 
 

@@ -1,5 +1,6 @@
 import React from "react";
-
+import PdfCard from '../components/PdfCard';
+import "../App.css";
 function ResourceContent (){
     return(
         <>
@@ -17,6 +18,13 @@ function ResourceContent (){
                     </button>
                     </div>
                 </div>
+
+                <div className="pdf_wrapper">
+                     <PdfCard/>
+                </div>
+
+
+                
 
             </main>
         </>
