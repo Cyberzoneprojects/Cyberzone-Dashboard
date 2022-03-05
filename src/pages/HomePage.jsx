@@ -9,7 +9,7 @@ function HomePage() {
     <>
       <Header/>
       <div className='container-fluid'>
-        <div className='row'>
+        <div className='row' style={{backgroundColor: "#f4f7f8"}}>
           <Sidebar/>
           <HomeContent/>
         </div>

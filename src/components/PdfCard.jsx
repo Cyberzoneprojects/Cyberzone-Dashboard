@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function PdfCard(){
     return(
@@ -15,7 +16,7 @@ function PdfCard(){
                          </div>
                      </div>
                      <h3 className="pdf_text">L’ANSSI et la CPME présentent douze règles essentielles pour la sécurité des systèmes d’information des petites et moyennes entreprises.</h3>
-                     <center><button className="pdf_btn">Download</button></center>
+                     <center><button className="pdf_btn"><FaCloudDownloadAlt size='1.3rem' style={{marginBottom: '.1rem'}}/>  Download</button></center>
                  </div>
            </div>
         </>

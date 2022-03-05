@@ -7,7 +7,7 @@
 }
 
 .wrapper{
-    margin: 4rem;
+    margin: 6rem;
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
@@ -27,6 +27,7 @@
      font-weight: 550;
      padding-top: 1.4rem;
      padding-left: .7rem;
+     color: #979796;
 }
 
 .card_title{
@@ -35,6 +36,7 @@
      font-weight: 600;
      padding-top: 1.1rem;
      padding-left: .7rem;
+     color: #36474f;
 }
 
 .card_info{
@@ -47,15 +49,31 @@
     display: flex;
 }
 
-.time_passed, .rating{
-     font-size: 1.1rem;
-     font-style: bold;
-     font-weight: 900;
-     padding-left: .7rem;
+.score{
+    margin-left: -.6rem;
 }
 
+.time_passed, .rating{
+     font-size: 1rem;
+     font-style: bold;
+     font-weight: 600;
+     padding-left: .4rem;
+}
+
+
+@media screen and (max-width: 636px){
+    .time_passed, .rating{
+        font-size: .8rem;
+        font-style: bold;
+        font-weight: 600;
+        padding-left: .7rem;
+   }
+}
+
+
+
 .card_btn{
-     background: #E3B104;
+     background: #f4b51a;
      color: white;
      border: none;
      height: 2.5rem;
@@ -66,11 +84,23 @@
      margin-bottom: 2rem;
 }
 
+.card_btn_home{
+    background: #75a8da;
+    color: white;
+    border: none;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 2rem;
+    text-shadow: .1rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
 .Divider_line{
      height: 1.3rem;
      width: cover;
      border-radius: .3rem;
-     background-color: black;
+     background-color: #808181;
 }
 
 .card_image{
@@ -78,7 +108,6 @@
     height: 8rem;
     object-fit: cover;
 }
-
 
 @media screen and (max-width: 767px){
     .wrapper{
@@ -115,11 +144,6 @@
      }
 }
 
-
-
-
-
-
 .pdf_card_image{
     width: cover;
     height: 18rem;
@@ -146,6 +170,7 @@
     height: 5rem;
     width: 10rem;
     margin-right: 1rem;
+    text-align:center;
 }
 
 .type_text{
@@ -162,7 +187,7 @@
 }
 
 .pdf_btn{
-    background: #E3B104;
+    background: #f4b51a;
      color: white;
      border: none;
      height: 2.5rem;
@@ -187,3 +212,42 @@
         width: 20rem;
     }
 }
+
+
+/*--------------------------------- Units ------------------------------------*/
+.unit_buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1192px){
+    .unit_buttons{
+      display: block;
+    }
+    .unit_btn1{
+        margin-bottom: .6rem;
+    }
+    .unit_btn2{
+        margin-left: -.8rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
