@@ -236,6 +236,74 @@
 
 
 
+/*--------------------------------- profile content ------------------------------------*/
+.profile_card{
+     box-shadow: none;
+     border: none;
+     margin: 5rem 0rem;
+}
+
+.profile_delete_btn{
+    background: #f4777c;
+    color: white;
+    border: none;
+    height: 2.5rem;
+    width: 13rem;
+    border-radius: 2rem;
+    text-shadow: .1rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.form_lable{
+      font-style: bold;
+      font-weight: 700;
+      color: #808181;
+}
+
+.form_validation_text{
+     font-size: .9rem;
+     font-style: italic;
+     font-weight: 600;
+     color: #bcc2c8;
+}
+
+.profile_validate_btn{
+     background: #f4b51a;
+     color: white;
+     border: none;
+     height: 2.5rem;
+     width: 8rem;
+     border-radius: 2rem;
+     text-shadow: .1rem;
+     font-weight: 900;
+     margin-bottom: 1rem;
+}
+
+
+.profile_navigation{
+     margin-bottom: -3rem;
+     margin-top: 2rem;
+}
+
+.profile_navigation p{
+     font-weight: 900;
+}
+
+.profile_navigation p .home:hover{
+     cursor: pointer;
+     font-style: underline;
+}
+
+
+/*--------------------------------- profile content ------------------------------------*/
+.attestation_card{
+    padding: 0rem 16.5rem;
+}
+
+
+
+
 
 
 

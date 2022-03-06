@@ -37,7 +37,7 @@ function Module1Content (){
                 </div>
 
                 <div className="footer" style={{backgroundColor: "#ffffff", display: "flex", justifyContent: "space-between", height: "3.4rem", marginLeft: "-2rem", marginRight: "-2rem", padding: "2rem", paddingTop: "1.1rem"}}>
-                     <p style={{color: "#36474f"}}><b>&copy; 2022 Cyberzone</b></p>
+                     <p style={{color: "#808181"}}><b>&copy; 2022 Cyberzone</b></p>
                      <p><b>Mentions legales</b></p>
                 </div>
             </main>
