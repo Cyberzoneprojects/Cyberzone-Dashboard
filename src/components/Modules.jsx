@@ -1,36 +1,29 @@
 import React from 'react';
-import { FaAccusoft, FaAdn } from "react-icons/fa";
-import { Card, Card_body, Card_image, Divider_line, Card_button, Module_name, Section_container, Headering, Sub_section_container, Section_text, Time_used} from '../styles/module.style';
-
-
+import { FaStar, FaRegClock } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Modules(props){
     return(
         <>
-            <Card>
-                 <Card_body>
-                     <Card_image src={props.img} />
-                     <Divider_line></Divider_line>
-                     <div>
-                         <Module_name><b>{props.name}</b></Module_name>
+           <div className="card">
+                 <img className="card_image" src={props.image}/>
+                 <div className="Divider_line"></div>
+                 <div className="card_body">
+                     <h3 className="card_module">{props.module_name}</h3>
+                     <h2 className="card_title">{props.title}</h2>
+                     <div className="card_info">
+                         <div className="time">
+                             <FaRegClock size='1.2rem' style={{marginTop: ".2rem"}} color='#0b426a'/>
+                             <div><p className='time_passed'>Temps passé : 00:00:00</p></div>
+                         </div>
+                         <div className='score'>
+                             <FaStar size='1.3rem' color='#0b426a'/>
+                             <div className='score1'><p className='rating'>Score : <span style={{color: "red"}}>0%</span></p></div>
+                         </div>
                      </div>
-                     <div>
-                         <Headering>{props.heading}</Headering>
-                     </div>
-                     <Section_container>
-                         <Sub_section_container>
-                             <div><FaAccusoft/></div>
-                             <div><Section_text>Temps passé :</Section_text></div>
-                         </Sub_section_container>
-                         <Sub_section_container>
-                             <div><FaAdn/></div>
-                             <div><Section_text>score: 0%</Section_text></div>
-                         </Sub_section_container>
-                     </Section_container>
-                     <div><Time_used>00:00:00</Time_used></div>
-                     <center><Card_button>Show Unites</Card_button></center>
-                 </Card_body>
-            </Card>
+                     <center><Link to={props.module_page}><button className="card_btn">Button</button></Link></center>
+                 </div>
+           </div>
         </>
     );
 }
