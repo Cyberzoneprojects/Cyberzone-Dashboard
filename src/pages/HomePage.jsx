@@ -7,13 +7,18 @@ function HomePage() {
   return (
     
     <>
-      <Header/>
+      {/* <Header/>
       <div className='container-fluid'>
         <div className='row' style={{backgroundColor: "#f4f7f8"}}>
           <Sidebar/>
           <HomeContent/>
         </div>
-      </div>
+      </div> */}
+
+      <Sidebar/>
+      <main>
+        <HomeContent/>
+      </main>
     </>
   );
 }

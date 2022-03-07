@@ -7,7 +7,7 @@ import {FaAngleLeft } from "react-icons/fa";
 function Module1Content (){
     return(
         <>
-            <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <main className=" ms-sm-auto px-md-4">
                 <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h1 className="h2" style={{color: "#36474f"}}><b>Module 1 : Panorama de la SSI</b></h1>
                     <div className="btn-toolbar mb-2 mb-md-0">

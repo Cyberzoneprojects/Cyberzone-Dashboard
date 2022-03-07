@@ -7,13 +7,18 @@ function ResourcePage() {
   return (
     
     <>
-      <Header/>
+      {/* <Header/>
       <div className='container-fluid'>
         <div className='row'>
           <Sidebar/>
           <ResourceContent/>
         </div>
-      </div>
+      </div> */}
+
+      <Sidebar/>
+      <main>
+        <ResourceContent/>
+      </main>
     </>
   );
 }
